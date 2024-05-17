@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares Turísticos na Europa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 8px 8px 0 0;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card-title {
+            font-size: 1.5em;
+            margin: 0;
+        }
+        .card-description {
+            font-size: 1em;
+            margin: 10px 0 0 0;
+            color: #555;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lugares Turísticos na Europa</h1>
+    </header>
+    <div class="container">
+        <div class="card-grid">
+            <div class="card">
+                <img src="/imagens/Paris.webp" alt="Paris, França">
+                <div class="card-content">
+                    <h2 class="card-title">Paris, França</h2>
+                    <p class="card-description">Paris é conhecida como a "Cidade Luz" e é famosa por seus monumentos icônicos como a Torre Eiffel, o Museu do Louvre e a Catedral de Notre-Dame. Passeie pelas charmosas ruas de Montmartre ou faça um cruzeiro pelo rio Sena.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/imagens/Roma.webp" alt="Roma, Itália">
+                <div class="card-content">
+                    <h2 class="card-title">Roma, Itália</h2>
+                    <p class="card-description">Roma, a capital da Itália, é um verdadeiro museu a céu aberto. Visite o Coliseu, o Panteão e o Fórum Romano para mergulhar na história antiga. Não perca a Cidade do Vaticano, com a Basílica de São Pedro e a Capela Sistina.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/imagens/Barcelona.webp" alt="Barcelona, Espanha">
+                <div class="card-content">
+                    <h2 class="card-title">Barcelona, Espanha</h2>
+                    <p class="card-description">Barcelona é famosa pela arquitetura única de Antoni Gaudí, incluindo a icônica Sagrada Família e o Parque Güell. Explore Las Ramblas, a vibrante avenida central, e relaxe nas praias do Mediterrâneo.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/imagens/Atenas.jpg" alt="Atenas, Grécia">
+                <div class="card-content">
+                    <h2 class="card-title">Atenas, Grécia</h2>
+                    <p class="card-description">Atenas, a capital da Grécia, é conhecida por seus antigos monumentos e sítios arqueológicos. Visite a Acrópole, o Templo de Zeus Olímpico e o Museu da Acrópole. Passeie pelo bairro histórico de Plaka e aprecie a culinária grega.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
